@@ -13,3 +13,29 @@ $color-grey-dark-2: #6D5D4B;
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font: 62.5%;
+}
+
+body{
+    font-family: $font-primary;
+    font-weight: 400;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom, $color-grey-light-1, $color-grey-dark-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
